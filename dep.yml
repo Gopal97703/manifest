@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: argo-cd
-        image: argo-cd:latest
+        image: gopal703/argo-cd:5
         ports:
         - containerPort: 80
